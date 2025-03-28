@@ -27,3 +27,13 @@ TEST_CASE("Testando a função eh_par") {
     CHECK(eh_par(0) == true);
     CHECK(eh_par(-4) == true);
 }
+
+
+
+/*
+string var = '"texto aleatorio"' -> string literal
+string var = 'texto aleatorio' -> nao tem aspas, logo nao é uma string literal.
+
+
+
+*/
